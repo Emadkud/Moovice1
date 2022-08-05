@@ -1,8 +1,8 @@
+import '../App.css' 
 const Card = (props) => {
-    console.log(props)
   return (
     
-    <article className="p-2 col-4">
+    <article className="p-2 col-2">
         <div className="card h-100 ">
             <img src={`https://image.tmdb.org/t/p/w300/${props.movie.poster_path}`} className="card-img-top" alt={props.movie.title}/>
                 <div className="card-body">

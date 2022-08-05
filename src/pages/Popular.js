@@ -1,5 +1,6 @@
 import { useEffect , useState} from "react"
 import Card from "../Components/Card"
+import '../App.css'
 
 const Popular = () => {
     const [movies , setMoviece] = useState ([])

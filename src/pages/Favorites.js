@@ -1,3 +1,4 @@
+import '../App.css'
 const Favorites = () => {
     return (
       <div>

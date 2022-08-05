@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-
+import '../App.css'
 const Header = () => {
   return (
     <nav className="navbar navbar-expand-lg bg-light">

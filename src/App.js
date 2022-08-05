@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes , Route,  } from "react-router-dom"
+import './App.css'
 
 
 import Favorites from "./pages/Favorites"
@@ -7,14 +8,14 @@ import NotFound from "./pages/NotFound"
 import Popular from "./pages/Popular"
 import Weekly from "./pages/Weekly"
 import Header from "./Components/Header"
-
+import "../src/App.css"
 
  
 const App = () => {
   return (
       
     <BrowserRouter>
-     <Header/>
+     <Header />
      
    
       <Routes>

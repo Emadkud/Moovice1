@@ -1,3 +1,5 @@
+import '../App.css'
+
 const Weekly = () => {
     return (
         <div>
